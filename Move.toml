@@ -1,0 +1,16 @@
+[package]
+name = "Contract_Factory"
+version = "1.0.0"
+authors = []
+
+[addresses]
+preethi_addr = "0x1c2d255aa3d80b06cfebe63bb22a68cd1268a56514a11441ce63ee9f845d7b6c"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
